@@ -51,6 +51,7 @@ export default function Components(props) {
       <Parallax image={require("assets/img/nextjs_header.jpg")}>
         <div className={classes.container}>
           <GridContainer>
+      
             <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.title}>NextJS Material Kit.</h1>
