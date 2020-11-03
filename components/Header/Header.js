@@ -64,7 +64,7 @@ export default function Header(props) {
   const brandComponent = (
     <Link href="/" as="/">
       <div>
-       
+        <img src={require("assets/img/arcitech.svg")} width="40" height="40" />
         <Button className={classes.title}>{brand}</Button>
       </div>
     </Link>
