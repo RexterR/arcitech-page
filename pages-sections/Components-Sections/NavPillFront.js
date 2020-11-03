@@ -32,7 +32,7 @@ export default function SectionPills() {
            
             <GridItem xs={12} sm={12} md={12} lg={12}>
               <NavPills
-                color="black"
+              color="default"
                 horizontal={{
                   tabsGrid: { xs: 12, sm: 4, md: 4 },
                   contentGrid: { xs: 12, sm: 8, md: 8 }
@@ -71,7 +71,7 @@ export default function SectionPills() {
                     tabButton: "Schedule",
                     tabIcon: Schedule,
                     tabContent: (
-                      <span>
+                      <span  style={{color:"black"}}>
                         <p>
                           Efficiently unleash cross-media information without
                           cross-media value. Quickly maximize timely
