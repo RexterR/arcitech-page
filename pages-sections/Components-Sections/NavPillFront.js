@@ -19,30 +19,21 @@ const useStyles = makeStyles(styles);
 export default function SectionPills() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
-      <div className={classes.container}>
-        <div id="navigation-pills">
-          <div className={classes.title}>
-            <h3>What is ArciTech</h3>
-          </div>
-          <div className={classes.title}>
-            
-          </div>
+   
           <GridContainer>
-           
             <GridItem xs={12} sm={12} md={12} lg={12}>
               <NavPills
-              color="default"
+                color="default"
                 horizontal={{
                   tabsGrid: { xs: 12, sm: 4, md: 4 },
-                  contentGrid: { xs: 12, sm: 8, md: 8 }
+                  contentGrid: { xs: 12, sm: 8, md: 8 },
                 }}
                 tabs={[
                   {
-                    tabButton: "Dashboard",
-                    tabIcon: Dashboard,
+                    
+                    tabIcon: "arcitech.svg",
                     tabContent: (
-                      <span style={{color:"black"}}>
+                      <span style={{ color: "black" }}>
                         <p>
                           Collaboratively administrate empowered markets via
                           plug-and-play networks. Dynamically procrastinate B2C
@@ -65,36 +56,39 @@ export default function SectionPills() {
                           installed base benefits.
                         </p>
                       </span>
-                    )
+                    ),
                   },
                   {
-                    tabButton: "Schedule",
-                    tabIcon: Schedule,
+                
+                    tabIcon: "snu.png",
                     tabContent: (
-                      <span  style={{color:"black"}}>
+                      <span style={{ color: "black" }}>
                         <p>
-                          Efficiently unleash cross-media information without
-                          cross-media value. Quickly maximize timely
-                          deliverables for real-time schemas.
+                          Sister Nivedita University (SNU) at New Town, Kolkata
+                          has been established through enactment of The Sister
+                          Nivedita University Act, 2017 (West Bengal XLIX of
+                          2017). SNU, being unique of its own kind is built on
+                          the path of Sister Nivedita,
                         </p>
                         <br />
                         <p>
-                          Dramatically maintain clicks-and-mortar solutions
-                          without functional solutions. Dramatically visualize
-                          customer directed convergence without revolutionary
-                          ROI. Collaboratively administrate empowered markets
-                          via plug-and-play networks. Dynamically procrastinate
-                          B2C users after installed base benefits.
+                          The university offers educational programs and
+                          research in a wide array of subjects, under
+                          disciplines like Engineering and Technology, Science,
+                          Medicine, Management, Law, Humanities, Language and
+                          Literature, Pharmacy, Architecture, Social Sciences,
+                          Education, Performing Arts, Sports, Media, Design,
+                          etc. Moreover, some unique courses will be introduced
+                          with the emphasis on skill development,
+                          entrepreneurship and women empowerment.
                         </p>
                       </span>
-                    )
-                  }
+                    ),
+                  },
                 ]}
               />
             </GridItem>
           </GridContainer>
-        </div>
-      </div>
-    </div>
+       
   );
 }

@@ -56,8 +56,8 @@ const navPillsStyle = theme => ({
     borderRadius: "4px"
   },
   tabIcon: {
-    width: "30px",
-    height: "30px",
+    width: "4rem",
+    height: "4rem",
     display: "block",
     margin: "15px 0 !important",
     "&, & *": {
