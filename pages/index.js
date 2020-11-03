@@ -21,6 +21,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import PillSection from "pages-sections/Components-Sections/NavPillFront.js";
 
 const dashboardRoutes = [];
 
@@ -42,21 +43,20 @@ export default function LandingPage(props) {
           color: "white",
         }}
         {...rest}
-      />
+      ></Header>
       <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Let's Make Good Things Together</h1>
               <h4>
-              SNU tech club is all about making great projects.
-                The motive is to create a local ecosystem of Developers in and
-                around the Campus. And having fun doing it.
+                SNU tech club is all about making great projects. The motive is
+                to create a local ecosystem of Developers in and around the
+                Campus. And having fun doing it.
               </h4>
               <br />
               <Button
                 color="primary"
-                size="md"
                 href="https://forms.gle/YWtu3sDrqGTH1DJe7"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,7 +70,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
-          <TeamSection />
+          <PillSection />
           <WorkSection />
         </div>
       </div>

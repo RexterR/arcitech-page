@@ -78,7 +78,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>SNU Tech Club</title>
+          <title>ArciTech</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
