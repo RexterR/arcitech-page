@@ -68,7 +68,6 @@ export default function Components(props) {
         <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
-        <SectionPills />
         <SectionNotifications />
         <SectionTypography />
         <SectionJavascript />
