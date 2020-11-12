@@ -33,6 +33,7 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
+        id="header"
         color="transparent"
         routes={dashboardRoutes}
         brand="ArciTech"
@@ -44,7 +45,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       ></Header>
-      <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
+      <Parallax filter responsive image={require("assets/img/arcitech2-bg.svg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>

@@ -98,7 +98,7 @@ export default function ProfilePage(props) {
                   tabs={[
                     {
                       tabButton: "Studio",
-                      tabIcon: Camera,
+                      tabIcon: "logo2.svg",
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
@@ -130,7 +130,7 @@ export default function ProfilePage(props) {
                     },
                     {
                       tabButton: "Work",
-                      tabIcon: Palette,
+                      tabIcon: "arcitech.svg",
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
@@ -167,7 +167,7 @@ export default function ProfilePage(props) {
                     },
                     {
                       tabButton: "Favorite",
-                      tabIcon: Favorite,
+                      tabIcon: "snu.png",
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
