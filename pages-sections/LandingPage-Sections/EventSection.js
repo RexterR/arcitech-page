@@ -5,7 +5,7 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-
+import EventRoundedIcon from "@material-ui/icons/EventRounded";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -15,7 +15,6 @@ import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/eventStyle.js";
-
 
 const useStyles = makeStyles(styles);
 
@@ -50,6 +49,10 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
+                <Button  color="success" startIcon={<EventRoundedIcon />} disabled>
+                  <span className={classes.date}>05-06-2020, 7:00 PM</span>
+                </Button>
+
                 <Button color="primary">Event Link</Button>
               </CardFooter>
             </Card>
@@ -77,6 +80,9 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
+                <Button color="success" disabled startIcon={<EventRoundedIcon />}>
+                  <span className={classes.date}>05-06-2020, 7:00 PM</span>
+                </Button>
                 <Button color="primary">Event Link</Button>
               </CardFooter>
             </Card>
