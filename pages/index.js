@@ -45,7 +45,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       ></Header>
-      <Parallax filter responsive image={require("assets/img/arcitech2-bg.svg")}>
+      <Parallax filter responsive image={require("assets/img/arcitech2-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
