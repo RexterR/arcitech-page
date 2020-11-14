@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -21,13 +21,14 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 
-const dashboardRoutes = [];
 
+const dashboardRoutes = [];
 const useStyles = makeStyles(styles);
 
 export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
+ 
   return (
     <div>
       <Header
@@ -43,14 +44,14 @@ export default function LandingPage(props) {
         }}
         {...rest}
       ></Header>
-      <Parallax filter responsive image={require("assets/img/team.svg")}>
+      <Parallax filter responsive image={require("assets/img/team.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>
                 We are making good thing together, with 💗
               </h1>
-              <h4 classname={classes.subtitle}>
+              <h4 className={classes.subtitle}>
                 This is our team behind all dedicated to make things happen.
               </h4>
               <br />
