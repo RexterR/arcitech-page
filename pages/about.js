@@ -90,10 +90,20 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                An artist of considerable range, Chet Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.{" "}
+                Arcitech is a Community to build apps together and learn
+                together.
+              </p>
+              <br />
+              <p>
+                If you are interested in any technology you are welcome . May be
+                you want to start learning, novice or expert all are Or maybe
+                you are a management enthusiast or a designer . We are ready to
+                make a production ready app
+              </p>
+              <br />
+              <p>
+                Open source development is now the inevitable part of our life.
+                And we would learn to contribute.
               </p>
             </div>
             <GridContainer justify="center">
@@ -155,7 +165,7 @@ export default function ProfilePage(props) {
                               src="https://snuniv.ac.in/assets/images/bg/bg8.jpg"
                               className={navImageClasses}
                             />
-                             <img
+                            <img
                               alt="..."
                               src="https://snuniv.ac.in/assets/images/event/annual-fest-details.jpg"
                               className={navImageClasses}

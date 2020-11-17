@@ -31,7 +31,7 @@ export default function TeamSection() {
   const [loading, setLoading] = useState(true);
   const [team, setTeam] = useState([]);
   useEffect(() => {
-    const res = axios
+    axios
       .get("/getMembers")
       .then((res) => {
         setTeam(res.data.members);
