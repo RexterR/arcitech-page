@@ -9,8 +9,6 @@ import GroupRoundedIcon from "@material-ui/icons/GroupRounded";
 import DeveloperModeRoundedIcon from "@material-ui/icons/DeveloperModeRounded";
 import ForumRoundedIcon from '@material-ui/icons/ForumRounded';
 import WorkRoundedIcon from "@material-ui/icons/WorkRounded";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";

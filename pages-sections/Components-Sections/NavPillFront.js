@@ -2,8 +2,6 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-
-
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -29,23 +27,20 @@ export default function SectionPills() {
               tabContent: (
                 <span style={{ color: "black" }}>
                   <p>
-                    Collaboratively administrate empowered markets via
-                    plug-and-play networks. Dynamically procrastinate B2C users
-                    after installed base benefits.
+                    Arcitech is a Community to build apps together and learn
+                    together.
                   </p>
                   <br />
                   <p>
-                    Dramatically visualize customer directed convergence without
-                    revolutionary ROI. Collaboratively administrate empowered
-                    markets via plug-and-play networks. Dynamically
-                    procrastinate B2C users after installed base benefits.
+                    If you are interested in any technology you are welcome .
+                    May be you want to start learning, novice or expert all are
+                    Or maybe you are a management enthusiast or a designer . We
+                    are ready to make a production ready app
                   </p>
                   <br />
                   <p>
-                    Dramatically visualize customer directed convergence without
-                    revolutionary ROI. Collaboratively administrate empowered
-                    markets via plug-and-play networks. Dynamically
-                    procrastinate B2C users after installed base benefits.
+                    Open source development is now the inevitable part of our
+                    life. And we would learn to contribute.
                   </p>
                 </span>
               ),
